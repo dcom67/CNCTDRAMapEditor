@@ -4,4 +4,6 @@ The files here are changed  to fix bugs in the orginal code
 
 GamePlugin.cs  is from the tiberian dawn foilder , It fixes the wrong Home way Point from 28 to 26
 
-TriggerDialog.cs  is from the Dialogs folder  it adds the Event "spied by " House box that should appear ,But is missing
+TriggerDialog.cs  is from the Dialogs folder  it adds the Ted Alert Event "spied by " House box that should appear ,But is missing
+
+TriggerDialog.cs also Stops the editor from throwing exceptions when Red Alert Action Text_Id is selected 
